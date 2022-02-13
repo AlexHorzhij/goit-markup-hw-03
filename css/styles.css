@@ -181,6 +181,9 @@ img {
 .features-item:not(:last-child) {
   margin-right: 30px;
 }
+.section.section-features {
+  padding-bottom: 0px;
+}
 
 /* Preview and Team */
 
