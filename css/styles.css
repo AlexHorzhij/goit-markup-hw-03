@@ -343,7 +343,7 @@ img {
   margin: -15px;
 }
 .examples-list-item {
-  width: calc((100% / 4)-60px);
+  flex-basis: calc((100% - 90px) / 3);
   margin: 15px;
 }
 .examples-description {
