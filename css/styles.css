@@ -12,6 +12,12 @@
   --logo-font-family: 'Raleway', sans-serif;
 }
 
+/* *,
+::after,
+::before {
+  box-sizing: border-box;
+} */
+
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--header-text-color);
@@ -176,7 +182,7 @@ img {
   display: flex;
 }
 .features-item {
-  width: calc((100%-90px) / 4);
+  flex-basis: calc((100%-90px) / 4);
 }
 .features-item:not(:last-child) {
   margin-right: 30px;
